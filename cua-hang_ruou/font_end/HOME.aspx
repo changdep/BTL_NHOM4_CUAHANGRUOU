@@ -4,9 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <!-- start: content slider-->
-    <section class="content-slider" style="padding-top: 340px;">
+    <section class="content-slider" style="padding-top: 340px;padding-left: 100px;">
         
-      <div class="flexslider">
+      <div class="flexslider" style="height: 500px;">
         <ul class="slides">
           <!-- start: slide -->
           <li>
@@ -48,6 +48,8 @@
       </div>
     </section> 
     <!-- end: content slider-->
+
+
     <!-- start: product grid -->
    <div id="hang_moi_ve">
        <section class="product-grid">
@@ -134,6 +136,10 @@ Sức mạnh của niềng răng: Cô bé trở nên xinh đẹp như hot girl s
     </div>
     
     <!-- end gioi thieu-->
+    <!-- footer-->
+    <div id="footer">
+
+    </div>
 
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>

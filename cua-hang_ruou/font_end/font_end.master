@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/normalize-and-boilerplate.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
+    <link  rel="stylesheet"  href="../../bootstrap/css/bootstrap.css"/>
+    <link  rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css"/>
+    <link  rel ="stylesheet" href="../../bootstrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="../../bootstrap/fonts/glyphicons-halflings-regular.eot" />
 
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -23,8 +27,7 @@
         <header class="header">
             <div class="row max-inner">
 
-                <div class="columns col-2">
-                    <a href="index.html" title="Indigo" class="logo">Indigo</a>
+                <div class="columns col-2">WINE</a>
                 </div>
 
                 <div class="columns col-6">
@@ -33,9 +36,9 @@
           </a>
                     <nav class="main-nav">
                         <ul>
-                            <li><a href="shop.html">New collection</a></li>
-                            <li><a href="shop.html">Catalog</a></li>
-                            <li><a href="shop.html">Promotion</a></li>
+                            <li><a href="HOME.aspx">HOME</a></li>
+                            <li><a href="DMSP.aspx">Danh Muc San Pham</a></li>
+                            <li><a href="BLOG.aspx">Promotion</a></li>
                             <li><a href="shop.html">Gift card</a></li>
                         </ul>
                     </nav>
@@ -71,6 +74,8 @@
         <!-- end: header -->
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    đây la pha&nbsp; đôi đuoc</p>
             </asp:ContentPlaceHolder>
           <!-- start: footer -->
     <footer class="footer">

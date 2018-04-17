@@ -517,10 +517,10 @@ A simple 12 column grid
   width: 100%; }
   .row .columns {
     float: left;
-    width: 100%;
     position: relative;
-    width: 100%;
-    padding: 0 15px; }
+    padding: 0 15px;
+    height: 25px;
+}
     .row .columns.col-12 {
       width: 100%; }
     .row .columns.col-11 {
@@ -734,7 +734,10 @@ Product Grid
       padding: 0 20px;
       text-align: center;
       position: relative;
-      z-index: 1; }
+      z-index: 1;
+    top: -111px;
+    left: -2px;
+}
     .product-grid .section-header hr {
       border-color: #dfdfdf;
       position: absolute;
@@ -768,7 +771,7 @@ Product Grid
           position: absolute;
           right: 0;
           left: 0;
-          top: -8px; }
+          top: -8px }
       .product-grid .grid-item .grid-item-desc h2 span {
         color: #9d9c9c;
         display: block;

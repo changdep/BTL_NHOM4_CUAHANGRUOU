@@ -4,7 +4,8 @@
 }
 
 .content-slider {
-    padding: 335px 0 20px 0 !important;
+    
+    padding: 0 100px 0 100px !important
 }
 
 /* view_hang_moi_ve*/
@@ -40,3 +41,38 @@
     padding-left: 50px;
 
 }
+
+/* danh mục sp*/
+.view_ruou .view_sp {
+border: 1px solid;
+padding: 2px;
+margin: 10px;
+
+}
+}
+.view_ruou .show_tennsx {
+
+color:#9d9c9c;
+font-family:"novecento_sans_widemedium";
+font-size:14px;
+padding: 0 100px;
+
+}
+.view_ruou .show_ten_sp {
+color: #6d6d6d;
+padding: 0 100px;
+font-family:"novecento_sans_widemedium";
+font-size:18px;
+ 
+}
+.view_ruou .show_gia {
+    color:#9d9c9c;
+font-family:"novecento_sans_widemedium";
+font-size:14px;
+padding: 0 100px 0 0;
+
+}
+.view_ruou .btn_chitiet {
+
+}
+.
